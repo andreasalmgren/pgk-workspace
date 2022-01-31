@@ -1,0 +1,7 @@
+var windowTitle: String          
+var windowSize: (Int, Int)       
+var blockSize: Int               
+var background: Color           
+var framesPerSecond: Int        
+var messageAreaHeight: Int      
+var messageAreaBackground: Color 

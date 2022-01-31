@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /home/andreas/Dropbox/PGK/labs/w09words/Text.scala:27:47 -------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m      [33melse[0m result += key -> [33mnew[0m FreqMapBuilder(next) [34m/* lägg till (key -> ny frekvenstabell med next) i result*/[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                               [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |too many arguments for [33mconstructor[0m [35mFreqMapBuilder[0m in [33mclass[0m [35mFreqMapBuilder[0m: (): nlp.FreqMapBuilder[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

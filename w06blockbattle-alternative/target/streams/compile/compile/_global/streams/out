@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\magnu\Desktop\Programmering\blockbattle\Game.scala:83:35: value waitForKey is not a member of object blockbattle.BlockWindow[0m
+[0m[[0m[31merror[0m] [0m[0m            val key = BlockWindow.waitForKey()[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

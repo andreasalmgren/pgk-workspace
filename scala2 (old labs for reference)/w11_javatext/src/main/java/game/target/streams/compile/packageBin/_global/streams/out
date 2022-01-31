@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\magnu\Desktop\Programmering\w11_javatext\src\main\java\game\target\scala-2.13\game_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	game[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\magnu\Desktop\Programmering\w11_javatext\src\main\java\game\target\scala-2.13\classes\game[0m
+[0m[[0m[0mdebug[0m] [0m[0m	game\Game.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\magnu\Desktop\Programmering\w11_javatext\src\main\java\game\target\scala-2.13\classes\game\Game.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	game\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\magnu\Desktop\Programmering\w11_javatext\src\main\java\game\target\scala-2.13\classes\game\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	game\UserInterface$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\magnu\Desktop\Programmering\w11_javatext\src\main\java\game\target\scala-2.13\classes\game\UserInterface$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	game\UserInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\magnu\Desktop\Programmering\w11_javatext\src\main\java\game\target\scala-2.13\classes\game\UserInterface.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

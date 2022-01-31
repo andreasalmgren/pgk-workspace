@@ -1,0 +1,4 @@
+[debug] [w04labblockmole-test] Classpath dependencies List()
+[debug] [w04labblockmole-test] Dependencies from configurations List(w04labblockmole)
+[debug] Bloop wrote the configuration of project 'w04labblockmole-test' to '/home/andreas/Dropbox/PGK/labs/w04labblockmole/.bloop/w04labblockmole-test.json'
+[success] Generated .bloop/w04labblockmole-test.json

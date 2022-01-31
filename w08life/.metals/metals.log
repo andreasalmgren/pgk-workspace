@@ -1,0 +1,764 @@
+[0m2021.11.03 19:41:21 INFO  Started: Metals version 0.10.9 in workspace '/home/andreas/Dropbox/PGK/labs/w08life' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.03 19:41:22 INFO  time: initialize in 0.93s[0m
+[0m2021.11.03 19:41:22 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.03 19:41:23 WARN  no build target for: /home/andreas/Dropbox/PGK/labs/w08life/Life.scala[0m
+[0m2021.11.03 19:41:23 WARN  no build target for: /home/andreas/Dropbox/PGK/labs/w08life/LifeWindow.scala[0m
+[0m2021.11.03 19:41:23 WARN  no build target for: /home/andreas/Dropbox/PGK/labs/w08life/Matrix.scala[0m
+[0m2021.11.03 19:41:23 WARN  no build target for: /home/andreas/Dropbox/PGK/labs/w08life/Main.scala[0m
+[0m2021.11.03 19:41:24 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.05 13:06:40 INFO  Started: Metals version 0.10.8 in workspace '/home/andreas/Dropbox/PGK/labs/w08life' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.05 13:06:42 INFO  time: initialize in 1.97s[0m
+[0m2021.11.05 13:06:47 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher14586527556006824545/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.11.05 13:06:47 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.11.05 13:06:51 INFO  no build target: using presentation compiler with only scala-library: 3.0.2[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.10-8-8d1cbc4f...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/andreas/Dropbox/PGK/labs/w08life/.bloop'...
+[0m[32m[D][0m Loading project from '/home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life.json'
+[0m[32m[D][0m Loading project from '/home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.2.
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.2/scala3-compiler_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.2/scala3-interfaces-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.2/scala3-library_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.2/scala3-tasty-inspector_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.2/scaladoc_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.2/tasty-core_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Missing analysis file for project 'w08life-test'
+[0m[32m[D][0m Missing analysis file for project 'w08life'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher14586527556006824545/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher14586527556006824545/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.05 13:06:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andreas/.cache/metals/bsp.trace.json[0m
+Nov 05, 2021 1:06:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.11.05 13:06:51 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3427946460127822414/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3427946460127822414/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3427946460127822414/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.05 13:06:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andreas/.cache/metals/bsp.trace.json[0m
+[0m2021.11.05 13:06:52 INFO  time: Connected to build server in 5.24s[0m
+[0m2021.11.05 13:06:52 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+[0m2021.11.05 13:06:52 INFO  time: Imported build in 0.14s[0m
+[0m2021.11.05 13:06:54 INFO  time: code lens generation in 2.61s[0m
+[0m2021.11.05 13:06:55 INFO  no build target: using presentation compiler with only scala-library: 3.0.2[0m
+[0m2021.11.05 13:06:56 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.11.05 13:06:56 ERROR error processing file:///home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11-sources.jar
+java.nio.file.FileSystemNotFoundException: /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11-sources.jar
+	at jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:118)
+	at jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:109)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:337)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:286)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.io.PlatformFileIO$.newJarFileSystem(PlatformFileIO.scala:100)
+	at scala.meta.internal.metals.JarTopLevels.getTopLevels(JarTopLevels.scala:32)
+	at scala.meta.internal.metals.MetalsLanguageServer.addSourceJarSymbols(MetalsLanguageServer.scala:2499)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$8(MetalsLanguageServer.scala:2464)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:985)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:984)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3(MetalsLanguageServer.scala:2452)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3$adapted(MetalsLanguageServer.scala:2451)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2(MetalsLanguageServer.scala:2451)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2$adapted(MetalsLanguageServer.scala:2450)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexDependencySources(MetalsLanguageServer.scala:2450)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$10(MetalsLanguageServer.scala:2395)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2395)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2288)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2288)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.11.05 13:06:56 INFO  time: indexed workspace in 3.62s[0m
+[0m2021.11.05 13:06:56 INFO  compiling w08life (4 scala sources)[0m
+[0m2021.11.05 13:07:01 INFO  compiling w08life-test (4 scala sources)[0m
+[0m2021.11.05 13:07:01 INFO  time: compiled w08life in 4.6s[0m
+[0m2021.11.05 13:07:02 INFO  time: compiled w08life-test in 1s[0m
+Nov 05, 2021 1:07:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Nov 05, 2021 1:07:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Nov 05, 2021 1:07:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Nov 05, 2021 1:07:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+[0m2021.11.05 13:10:23 INFO  shutting down Metals[0m
+[0m2021.11.05 13:10:23 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.11.05 13:10:23 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.11.05 13:10:48 INFO  Started: Metals version 0.10.9 in workspace '/home/andreas/Dropbox/PGK/labs/w08life' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.05 13:10:51 INFO  time: initialize in 2.98s[0m
+[0m2021.11.05 13:10:52 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher11809907887282991340/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.11.05 13:10:52 INFO  skipping build import with status 'Installed'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher11809907887282991340/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher11809907887282991340/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.05 13:10:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andreas/.cache/metals/bsp.trace.json[0m
+[0m2021.11.05 13:10:52 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3329306176701272460/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3329306176701272460/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3329306176701272460/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.05 13:10:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andreas/.cache/metals/bsp.trace.json[0m
+Nov 05, 2021 1:10:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.11.05 13:10:56 INFO  no build target: using presentation compiler with only scala-library: 3.0.2[0m
+[0m2021.11.05 13:11:09 INFO  time: code lens generation in 16s[0m
+[0m2021.11.05 13:11:10 INFO  time: code lens generation in 16s[0m
+[0m2021.11.05 13:11:10 INFO  time: Connected to build server in 18s[0m
+[0m2021.11.05 13:11:10 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+[0m2021.11.05 13:11:12 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.11.05 13:11:12 ERROR error processing file:///home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11-sources.jar
+java.nio.file.FileSystemNotFoundException: /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11-sources.jar
+	at jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:118)
+	at jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:109)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:337)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:286)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.io.PlatformFileIO$.newJarFileSystem(PlatformFileIO.scala:100)
+	at scala.meta.internal.metals.JarTopLevels.getTopLevels(JarTopLevels.scala:32)
+	at scala.meta.internal.metals.MetalsLanguageServer.addSourceJarSymbols(MetalsLanguageServer.scala:2491)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$8(MetalsLanguageServer.scala:2456)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:985)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:984)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3(MetalsLanguageServer.scala:2444)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3$adapted(MetalsLanguageServer.scala:2443)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2(MetalsLanguageServer.scala:2443)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2$adapted(MetalsLanguageServer.scala:2442)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexDependencySources(MetalsLanguageServer.scala:2442)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$10(MetalsLanguageServer.scala:2387)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2387)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2280)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2280)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.11.05 13:11:12 INFO  time: indexed workspace in 1.93s[0m
+[0m2021.11.05 13:11:13 INFO  no build target: using presentation compiler with only scala-library: 3.0.2[0m
+Nov 05, 2021 1:11:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Nov 05, 2021 1:11:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Nov 05, 2021 1:11:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Nov 05, 2021 1:11:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+[0m2021.11.05 13:11:59 INFO  shutting down Metals[0m
+[0m2021.11.05 13:11:59 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0mNo more data in the server stdin, exiting...
+2021.11.05 13:11:59 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.11.05 13:21:48 INFO  Started: Metals version 0.10.9 in workspace '/home/andreas/Dropbox/PGK/labs/w08life' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.05 13:21:49 INFO  time: initialize in 1.37s[0m
+[0m2021.11.05 13:21:50 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher366259540316858381/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.11.05 13:21:50 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+Nov 05, 2021 1:21:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.11.05 13:21:53 INFO  no build target: using presentation compiler with only scala-library: 3.0.2[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.11.05 13:21:56 INFO  time: code lens generation in 5.1s[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.11...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/andreas/Dropbox/PGK/labs/w08life/.bloop'...
+[0m[32m[D][0m Loading project from '/home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life.json'
+[0m[32m[D][0m Loading project from '/home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.2.
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.2/scala3-compiler_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.2/scala3-interfaces-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.2/scala3-library_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.2/scala3-tasty-inspector_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.2/scaladoc_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.2/tasty-core_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Loading previous analysis for 'w08life-test' from '/home/andreas/Dropbox/PGK/labs/w08life/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Loading previous analysis for 'w08life' from '/home/andreas/Dropbox/PGK/labs/w08life/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher366259540316858381/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher366259540316858381/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.05 13:21:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andreas/.cache/metals/bsp.trace.json[0m
+[0m2021.11.05 13:21:56 INFO  time: code lens generation in 4.17s[0m
+[0m2021.11.05 13:21:56 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5530123069693820641/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5530123069693820641/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5530123069693820641/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.05 13:21:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andreas/.cache/metals/bsp.trace.json[0m
+[0m2021.11.05 13:21:57 INFO  time: Connected to build server in 6.82s[0m
+[0m2021.11.05 13:21:57 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.11.05 13:21:57 INFO  time: Imported build in 0.11s[0m
+[0m2021.11.05 13:21:58 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.11.05 13:21:58 ERROR error processing file:///home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11-sources.jar
+java.nio.file.FileSystemNotFoundException: /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11-sources.jar
+	at jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:118)
+	at jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:109)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:337)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:286)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.io.PlatformFileIO$.newJarFileSystem(PlatformFileIO.scala:100)
+	at scala.meta.internal.metals.JarTopLevels.getTopLevels(JarTopLevels.scala:32)
+	at scala.meta.internal.metals.MetalsLanguageServer.addSourceJarSymbols(MetalsLanguageServer.scala:2491)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$8(MetalsLanguageServer.scala:2456)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:985)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:984)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3(MetalsLanguageServer.scala:2444)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3$adapted(MetalsLanguageServer.scala:2443)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2(MetalsLanguageServer.scala:2443)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2$adapted(MetalsLanguageServer.scala:2442)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexDependencySources(MetalsLanguageServer.scala:2442)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$10(MetalsLanguageServer.scala:2387)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2387)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2280)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2280)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.11.05 13:21:58 INFO  time: indexed workspace in 1.73s[0m
+[0m2021.11.05 13:21:59 INFO  compiling w08life (4 scala sources)[0m
+[0m2021.11.05 13:22:00 INFO  no build target: using presentation compiler with only scala-library: 3.0.2[0m
+[0m2021.11.05 13:22:04 INFO  compiling w08life-test (4 scala sources)[0m
+[0m2021.11.05 13:22:04 INFO  time: compiled w08life in 5.19s[0m
+[0m2021.11.05 13:22:05 INFO  time: compiled w08life-test in 1.08s[0m
+Nov 05, 2021 1:22:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+[0m2021.11.05 13:22:25 INFO  shutting down Metals[0m
+[0m2021.11.05 13:22:25 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.11.05 13:22:25 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.11.05 13:36:04 INFO  Started: Metals version 0.10.9 in workspace '/home/andreas/Dropbox/PGK/labs/w08life' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.05 13:36:05 INFO  time: initialize in 1.37s[0m
+[0m2021.11.05 13:36:06 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3492352045733191640/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.11.05 13:36:05 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.11.05 13:36:09 INFO  no build target: using presentation compiler with only scala-library: 3.0.2[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.11...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/andreas/Dropbox/PGK/labs/w08life/.bloop'...
+[0m[32m[D][0m Loading project from '/home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life-test.json'
+[0m[32m[D][0m Loading project from '/home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.2.
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.2/scala3-compiler_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.2/scala3-interfaces-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.2/scala3-library_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.2/scala3-tasty-inspector_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.2/scaladoc_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.2/tasty-core_3-3.0.2.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Loading previous analysis for 'w08life' from '/home/andreas/Dropbox/PGK/labs/w08life/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Loading previous analysis for 'w08life-test' from '/home/andreas/Dropbox/PGK/labs/w08life/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_3.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3492352045733191640/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3492352045733191640/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.05 13:36:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andreas/.cache/metals/bsp.trace.json[0m
+[0m2021.11.05 13:36:10 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher16188013064614462166/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher16188013064614462166/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher16188013064614462166/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.05 13:36:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andreas/.cache/metals/bsp.trace.json[0m
+[0m2021.11.05 13:36:10 INFO  time: Connected to build server in 4.69s[0m
+[0m2021.11.05 13:36:10 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.11.05 13:36:11 INFO  time: Imported build in 0.14s[0m
+Nov 05, 2021 1:36:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Nov 05, 2021 1:36:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+[0m2021.11.05 13:36:12 INFO  time: code lens generation in 5.17s[0m
+[0m2021.11.05 13:36:13 INFO  no build target: using presentation compiler with only scala-library: 3.0.2[0m
+[0m2021.11.05 13:36:13 INFO  time: code lens generation in 2.19s[0m
+[0m2021.11.05 13:36:14 INFO  time: code lens generation in 1.77s[0m
+[0m2021.11.05 13:36:14 ERROR code navigation does not work for the file '/home/andreas/Dropbox/PGK/labs/w08life/Matrix.scala' because the SemanticDB file '/home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life/bloop-bsp-clients-classes/test-classes-Metals-aE9-5C-fRriSFFg74FnTqA==/META-INF/semanticdb/Matrix.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.11.05 13:36:15 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.11.05 13:36:15 ERROR error processing file:///home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11-sources.jar
+java.nio.file.FileSystemNotFoundException: /home/andreas/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.11/sbt-bloop-1.4.11-sources.jar
+	at jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:118)
+	at jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:109)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:337)
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:286)
+	at scala.meta.internal.io.PlatformFileIO$.newFileSystem(PlatformFileIO.scala:104)
+	at scala.meta.internal.io.PlatformFileIO$.newJarFileSystem(PlatformFileIO.scala:100)
+	at scala.meta.internal.metals.JarTopLevels.getTopLevels(JarTopLevels.scala:32)
+	at scala.meta.internal.metals.MetalsLanguageServer.addSourceJarSymbols(MetalsLanguageServer.scala:2491)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$8(MetalsLanguageServer.scala:2456)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:985)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:984)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3(MetalsLanguageServer.scala:2444)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$3$adapted(MetalsLanguageServer.scala:2443)
+	at scala.Option.foreach(Option.scala:407)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2(MetalsLanguageServer.scala:2443)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexDependencySources$2$adapted(MetalsLanguageServer.scala:2442)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexDependencySources(MetalsLanguageServer.scala:2442)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$10(MetalsLanguageServer.scala:2387)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:2387)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:2280)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:2280)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.11.05 13:36:15 INFO  time: indexed workspace in 4.54s[0m
+Nov 05, 2021 1:37:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+Nov 05, 2021 1:37:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Nov 05, 2021 1:37:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+Nov 05, 2021 1:38:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72
+Nov 05, 2021 1:38:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 82
+Nov 05, 2021 1:38:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+Nov 05, 2021 1:38:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+Nov 05, 2021 1:39:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 149
+Nov 05, 2021 1:39:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 154
+Nov 05, 2021 1:41:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 172
+Nov 05, 2021 1:43:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 63 is not a valid line number, allowed [0..62]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1554)
+	... 15 more
+
+Nov 05, 2021 1:50:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 233
+Nov 05, 2021 1:50:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 250
+Nov 05, 2021 1:51:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 264
+Nov 05, 2021 1:54:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 284
+Nov 05, 2021 1:54:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 289
+Nov 05, 2021 1:54:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 296
+Nov 05, 2021 1:54:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 302
+Nov 05, 2021 1:55:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 322
+Nov 05, 2021 1:55:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 328
+Nov 05, 2021 2:01:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 367
+Nov 05, 2021 2:03:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 372
+Nov 05, 2021 2:04:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 380
+Nov 05, 2021 2:04:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 385
+Nov 05, 2021 2:05:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 407
+[0m2021.11.05 14:07:51 INFO  skipping build import with status 'Installed'[0m
+[0m2021.11.05 14:07:51 INFO  compiling w08life (1 scala source)[0m
+[0m2021.11.05 14:07:54 INFO  compiling w08life-test (1 scala source)[0m
+[0m2021.11.05 14:07:54 WARN  /home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life/bloop-internal-classes/test-classes-Metals-2kGIIE6VTviNpbpjTHSdVA==-tcqIG0l0TGKEvryPjCiwzw==/life/Matrix.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue[0m
+[0m2021.11.05 14:07:54 INFO  time: compiled w08life in 3.44s[0m
+[0m2021.11.05 14:07:54 WARN  /home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life/bloop-internal-classes/test-classes-Metals-2kGIIE6VTviNpbpjTHSdVA==-tcqIG0l0TGKEvryPjCiwzw==/life/Main.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue[0m
+[0m2021.11.05 14:07:54 INFO  time: compiled w08life-test in 0.76s[0m
+[0m2021.11.05 14:09:26 INFO  skipping build import with status 'Installed'[0m
+[0m2021.11.05 14:09:26 INFO  compiling w08life (1 scala source)[0m
+[0m2021.11.05 14:09:26 INFO  time: compiled w08life in 0.53s[0m
+[0m2021.11.05 14:09:26 INFO  compiling w08life-test (1 scala source)[0m
+[0m2021.11.05 14:09:26 WARN  /home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life/bloop-internal-classes/test-classes-Metals-aE9-5C-fRriSFFg74FnTqA==-Qz6myG0rTUSyEp_7DI0K5w==/life/Matrix.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue[0m
+[0m2021.11.05 14:09:26 WARN  /home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life/bloop-internal-classes/test-classes-Metals-aE9-5C-fRriSFFg74FnTqA==-Qz6myG0rTUSyEp_7DI0K5w==/life/Main.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue[0m
+[0m2021.11.05 14:09:26 INFO  time: compiled w08life-test in 0.45s[0m
+[0m2021.11.05 14:09:39 INFO  skipping build import with status 'Installed'[0m
+[0m2021.11.05 14:09:39 INFO  compiling w08life (1 scala source)[0m
+[0m2021.11.05 14:09:39 INFO  time: compiled w08life in 0.37s[0m
+[0m2021.11.05 14:09:39 INFO  compiling w08life-test (1 scala source)[0m
+[0m2021.11.05 14:09:39 WARN  /home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life/bloop-internal-classes/test-classes-Metals-aE9-5C-fRriSFFg74FnTqA==-nOAAKDWVSFG3GOG0VURNYQ==/life/Matrix.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue[0m
+[0m2021.11.05 14:09:39 WARN  /home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life/bloop-internal-classes/test-classes-Metals-aE9-5C-fRriSFFg74FnTqA==-nOAAKDWVSFG3GOG0VURNYQ==/life/Main.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue[0m
+[0m2021.11.05 14:09:39 INFO  time: compiled w08life-test in 0.43s[0m
+[0m2021.11.05 14:10:46 INFO  skipping build import with status 'Installed'[0m
+[0m2021.11.05 14:10:46 INFO  compiling w08life (1 scala source)[0m
+[0m2021.11.05 14:10:46 INFO  time: compiled w08life in 0.32s[0m
+[0m2021.11.05 14:10:46 INFO  compiling w08life-test (1 scala source)[0m
+[0m2021.11.05 14:10:46 WARN  /home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life/bloop-internal-classes/test-classes-Metals-aE9-5C-fRriSFFg74FnTqA==-TR6Wy1bdTMSDGyORUIxKVQ==/life/Matrix.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue[0m
+[0m2021.11.05 14:10:46 WARN  /home/andreas/Dropbox/PGK/labs/w08life/.bloop/w08life/bloop-internal-classes/test-classes-Metals-aE9-5C-fRriSFFg74FnTqA==-TR6Wy1bdTMSDGyORUIxKVQ==/life/Main.class is out of sync with its TASTy file. Loaded TASTy file. Try cleaning the project to fix this issue[0m
+[0m2021.11.05 14:10:46 INFO  time: compiled w08life-test in 0.32s[0m
+Nov 05, 2021 2:11:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 615
+Nov 05, 2021 2:13:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 653
+Nov 05, 2021 2:13:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 659
+Nov 05, 2021 2:14:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 05, 2021 2:14:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ClassNotFoundException: 
+java.util.concurrent.CompletionException: java.lang.ClassNotFoundException: 
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:42)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: 
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$1(BuildTargetClassesFinder.scala:107)
+	at scala.Option.fold(Option.scala:251)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:108)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:36)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveMainClassParams$1(DebugProvider.scala:355)
+	at scala.meta.internal.metals.debug.DebugProvider$$anonfun$withRebuildRetry$1.$anonfun$applyOrElse$5(DebugProvider.scala:584)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+Nov 05, 2021 2:14:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 679
+Nov 05, 2021 2:14:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 686
+Nov 05, 2021 2:15:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 693
+Nov 05, 2021 2:21:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 746
+Nov 05, 2021 2:21:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 758
+Nov 05, 2021 2:21:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 766
+Nov 05, 2021 2:23:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 809
+Nov 05, 2021 2:24:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 839
+Nov 05, 2021 2:24:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 866
+Nov 05, 2021 2:25:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 875
+Nov 05, 2021 2:25:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 894
+Nov 05, 2021 2:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 950
+Nov 05, 2021 2:31:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1016
+[0m2021.11.05 14:34:43 INFO  shutting down Metals[0m
+[0m2021.11.05 14:34:43 INFO  Shut down connection with build server.[0m
+[0m2021.11.05 14:34:43 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/andreas/Dropbox/PGK/labs/w04labblockmole/blockmole.scala:103:58 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m103 |[0m        BlockWindow.rectangle([31m0[0m, [31m0[0m)(size = ([31m30[0m, [31m3[0m))(Color.Sky) [34m//starts drawing at 0,0 and draw from x = 0 to x = 30 and y = 0 to y = 3[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                    [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value Sky is not a member of object blockmole.Color - did you mean Color.sky?[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
