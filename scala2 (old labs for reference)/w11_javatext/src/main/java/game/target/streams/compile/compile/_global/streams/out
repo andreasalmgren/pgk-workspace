@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\magnu\Desktop\Programmering\w11_javatext\src\main\java\game\Game.java:147:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable size[0m
+[0m[[0m[31merror[0m] [0m[0m  location: variable args2 of type java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0margs2.size[0m

@@ -1,0 +1,21 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /home/andreas/Dropbox/PGK/labs/w09words/Text.scala:13:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m    [33mval[0m [36mfreq[0m = FreqMapBuilder(words:[35m_[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |Found:    (Text.this.words : Vector[String])[0m
+[0m[[0m[31merror[0m] [0m[0m   |Required: [0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |One of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import math.Ordering.ordered[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import collection.JavaConverters.asJavaIterableConverter[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import collection.JavaConverters.seqAsJavaListConverter[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import collection.JavaConverters.asJavaCollectionConverter[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import util.control.Exception.throwableSubtypeToCatcher[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import math.Fractional.Implicits.infixFractionalOps[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import math.Integral.Implicits.infixIntegralOps[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import math.Numeric.Implicits.infixNumericOps[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import math.Ordered.orderingToOrdered[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import math.Ordering.Implicits.infixOrderingOps[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,31 @@
+removeNA <- function(x) {
+    return(x[complete.cases(x),])
+}
+
+analysePotentialOutliers <- function(data,threshold) {
+    df <- data.frame()
+    for (i in 1:(length(data))) {
+        col <- data[ ,i]
+        less <- col[col<threshold[i]]
+        more <- col[col>threshold[i]]
+        X <- c(colnames(data[i]), col[0], length(more), mean(less))
+        df <- rbind(df,X)
+    }   
+    colnames(df) <- c("Variable", "NrPotentialOutliers", "MeanNoOutliers")
+    return(df)
+}
+
+
+contributors <- function(file, n) {
+    data <- read.csv(file, sep="|")
+    users <- data[,2]
+    dates <- data[,3]
+    lastCommit <- sort(tapply(dates, users, max))
+    print(lastCommit)
+    sorted <- sort(table(users), decreasing = T)
+    numberUsers <- sorted[1:n]
+    dfnumberUsers <- as.data.frame(numberUsers)
+    barplot(dfnumberUsers$Freq, names.arg=dfnumberUsers$users)
+}
+
+

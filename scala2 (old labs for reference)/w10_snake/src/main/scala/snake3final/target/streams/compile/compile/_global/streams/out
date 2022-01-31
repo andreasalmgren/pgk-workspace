@@ -1,0 +1,48 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/Snake.scala:45:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m45 |[0m[33mdef[0m [36mfruitCollision[0m([36me[0m: [35mEntity[0m): [35mUnit[0m = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/SnakeGame.scala:45:0 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m45 |[0m[33mdef[0m [36mrandomFreePos[0m(): [35mPos[0m = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/CanMove.scala:14:30 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m          timestampLastMove + millisBetweenMoves) {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                              [31m^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |[33mmethod[0m [35mmillisBetweenMoves[0m in [33mtrait[0m [35mCanMove[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/Main.scala:7:8 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m    orm.reset[0m
+[0m[[0m[31merror[0m] [0m[0m  |    [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |    [33mmethod[0m [35mreset[0m in [33mclass[0m [35mSnake[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/Snake.scala:66:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m66 |[0m    [33mthis[0m.grow[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [33mmethod[0m [35mgrow[0m in [33mclass[0m [35mSnake[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/Snake.scala:67:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m67 |[0m    [33mthis[0m.shrink[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [33mmethod[0m [35mshrink[0m in [33mclass[0m [35mSnake[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/Snake.scala:73:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m      [33mthis[0m.grow[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [33mmethod[0m [35mgrow[0m in [33mclass[0m [35mSnake[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/SnakeGame.scala:85:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m85 |[0m      entities.foreach(_.erase)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                       [31m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |            [33mmethod[0m [35merase[0m in [33mtrait[0m [35mEntity[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/SnakeGame.scala:86:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m86 |[0m      entities.foreach(_.update)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                       [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |           [33mmethod[0m [35mupdate[0m in [33mtrait[0m [35mEntity[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/SnakeGame.scala:87:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m87 |[0m      entities.foreach(_.draw)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                       [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |             [33mmethod[0m [35mdraw[0m in [33mtrait[0m [35mEntity[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/SnakeGame.scala:88:10 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m88 |[0m      [33mif[0m (isGameOver) enterGameOverState()[0m
+[0m[[0m[31merror[0m] [0m[0m   |          [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [33mmethod[0m [35misGameOver[0m in [33mclass[0m [35mSnakeGame[0m must be called with () argument[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m

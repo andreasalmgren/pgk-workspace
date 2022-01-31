@@ -1,0 +1,89 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(~compile, Some(d3ec2dc4-50d2-4cf3-978a-4d59b5482c89), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/andreas/Dropbox/PGK/labs/w04labblockmole/target/scala-2.12/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[31merror[0m] [0m[0m## Exception when compiling 2 sources to /home/andreas/Dropbox/PGK/labs/w04labblockmole/target/scala-2.12/classes[0m
+[0m[[0m[31merror[0m] [0m[0mjava.nio.channels.FileLockInterruptionException[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/sun.nio.ch.FileChannelImpl.lock(FileChannelImpl.java:1138)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.nio.channels.FileChannel.lock(FileChannel.java:1063)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.boot.Locks$GlobalLock.withChannelRetries$1(Locks.scala:91)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.boot.Locks$GlobalLock.$anonfun$withFileLock$1(Locks.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.boot.Using$.withResource(Using.scala:12)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.boot.Using$.apply(Using.scala:9)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.boot.Locks$GlobalLock.withFileLock(Locks.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:71)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.boot.Locks$GlobalLock.withLock(Locks.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.boot.Locks$.apply0(Locks.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0mxsbt.boot.Locks$.apply(Locks.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ZincComponentManager.lock(ZincComponentManager.scala:91)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ZincComponentManager.lockLocalCache(ZincComponentManager.scala:84)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ZincComponentManager.files(ZincComponentManager.scala:66)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ZincComponentManager.file(ZincComponentManager.scala:72)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ZincComponentCompiler.compiledBridgeJar(ZincComponentCompiler.scala:222)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ZincComponentCompiler$ZincCompilerBridgeProvider.compiledBridge(ZincComponentCompiler.scala:63)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.ZincComponentCompiler$ZincCompilerBridgeProvider.fetchCompiledBridge(ZincComponentCompiler.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.AnalyzingCompiler.getDualLoader(AnalyzingCompiler.scala:354)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.AnalyzingCompiler.getCompilerLoader(AnalyzingCompiler.scala:343)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:87)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:192)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:247)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:182)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:210)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:528)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:528)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:175)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:173)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:459)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:414)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:501)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.Incremental$.apply(Incremental.scala:167)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:528)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:482)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2357)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2314)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.io.Retry$.apply(Retry.scala:46)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.io.Retry$.apply(Retry.scala:28)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.io.Retry$.apply(Retry.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2310)[0m
+[0m[[0m[31merror[0m] [0m[0mscala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0m           [0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: compile[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: compile[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'last' for the full log.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, Some(CommandSource(console0)))[0m
