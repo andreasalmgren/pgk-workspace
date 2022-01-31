@@ -1,6 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(:quit, Some(8668c67f-c261-4fd5-bbd2-dfb7365d5ecd), Some(CommandSource(console0)))[0m
-[0m[[0m[31merror[0m] [0m[0mExpected symbol[0m
-[0m[[0m[31merror[0m] [0m[0mNot a valid command: :[0m
-[0m[[0m[31merror[0m] [0m[0m:quit[0m
-[0m[[0m[31merror[0m] [0m[0m ^[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

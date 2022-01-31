@@ -1,7 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(3b1dfb81-a1f5-4f46-9ac6-ac8259348999), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/andreas/Dropbox/PGK/labs/w06blockbattle/target/scala-3.0.2/classes ...[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/andreas/Dropbox/PGK/labs/w06blockbattle/target/scala-3.0.2/classes ...[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 14 s, completed Oct 7, 2021, 6:12:51 PM[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

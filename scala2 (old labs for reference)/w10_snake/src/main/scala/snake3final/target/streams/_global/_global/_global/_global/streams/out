@@ -1,5 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [snake3final / Compile / compile] Found inputs: /home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/*.{java,scala},/home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/src/main/java/**/*.{java,scala},/home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/src/main/resources/**/*,/home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/src/main/scala/**/*.{java,scala},/home/andreas/Dropbox/PGK/labs/scala/w10_snake/src/main/scala/snake3final/src/main/scala-2.13/**/*.{java,scala}[0m
-[0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for snake3final/compile...[0m
-[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run().[0m
-[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run().[0m
