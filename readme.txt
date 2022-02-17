@@ -1,1 +1,1 @@
-Labs for the PGK-grundkurs given in Scala HT2021
+Labs for the PGK2021 given in Scala
